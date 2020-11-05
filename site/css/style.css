@@ -136,7 +136,7 @@ li + li {
   transform : translate(0, 50px);
   transition:all 0.7s;
 }
- 
+
 .fadein.scrollin {
   opacity : 1;
   transform : translate(0, 0);
@@ -149,7 +149,7 @@ li + li {
   transform : translate(0, 50px);
   transition:all 1.5s;
 }
- 
+
 .fadein2.scrollin {
   opacity : 1;
   transform : translate(0, 0);
@@ -161,7 +161,7 @@ li + li {
   transform : translate(0, 60px);
   transition:all 2s;
 }
- 
+
 .fadein3.scrollin {
   opacity : 1;
   transform : translate(0, 0);
@@ -179,7 +179,7 @@ li + li {
 .title-wrap img {
   display: block;
 
-  width: 59%;
+  width: 60%;
 }
 
 #sub-title {
@@ -203,7 +203,7 @@ white-space: nowrap;
 
 .value {
   display: flex;
-  margin:200px 0 0 100px;
+  margin:200px 0 0 150px;
 
 }
 
@@ -222,7 +222,7 @@ white-space: nowrap;
 }
 
 .proposition-text{
-  margin-right: 20px;
+  margin-right: 10px;
   margin-left: 50px;
   width: 50%;
   font-size: 1.8rem;
@@ -338,11 +338,10 @@ font-size: 250px;
 
 .img-wrap .img{
   position: absolute;
- 
 }
 .img1{
   top: 120px;
- right: 170px;
+  right: 170px;
   z-index: -1;
   width: 35vw;
 }
@@ -351,9 +350,9 @@ font-size: 250px;
 }
 .img2{
   top: 250px;
- left: 90px;
- z-index: -3;
- width: 40vw;
+  left: 90px;
+  z-index: -3;
+  width: 40vw;
 }
 
 .img2 img{
@@ -376,7 +375,6 @@ font-size: 250px;
   right: 45px;
   z-index: -1;
   width: 35vw;
-
 }
 
 .img4 img{
@@ -430,6 +428,10 @@ dd{
 font-size: 1.4rem;
 }
 
+.add a:hover{
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
 .contact-wrap a{
   color: #fff;
 }
@@ -442,7 +444,6 @@ footer{
   height: auto;
 }
 
-/* ホバー */
 .footer-nav ul li :hover{
   background-color: rgba(255, 255, 255, 0.8);
 }
@@ -453,8 +454,6 @@ footer{
   align-items: center;
   margin: 10px;
 }
-
-
 
 .insta-icon{
   width: 50px;
@@ -476,8 +475,8 @@ small{
 /* sistem  ここから*/
 
 #sistem-header{
- background-image: url(../image/sistem.png);
- height: 440px;
+  background-image: url(../image/sistem.png);
+  height: 440px;
   width: 100%;
   background-size: cover;
 }
@@ -535,7 +534,7 @@ text-align: center;
 
 .free-img img{
   width: 100%;
- padding: 0 100px;
+  padding: 0 100px;
 }
 
 .menu-wrap{
@@ -624,31 +623,31 @@ line-height: 3rem;
 #topics-header{
   background-image: url(../image/topics.png);
   height: 440px;
-   width: 100%;
-   background-size: cover;
- }
+  width: 100%;
+  background-size: cover;
+}
 
- .news{
-   margin-top: 100px;
-   margin-left: 150px;
-   display: flex;
-   line-height: center;
- }
+.news{
+  margin-top: 100px;
+  margin-left: 150px;
+  display: flex;
+  line-height: center;
+}
 
- .news-title{
+.news-title{
   font-size: 15rem;
   width: 30%;
   color: #707070;
   margin: 35px;
- }
+}
 
- .news-item div{
+.news-item div{
   display: flex;
   justify-content: start;
   border-bottom: 1px dotted #707070;
   padding: 10px;
   
- }
+}
 
 .news-box{
   width: 70%;
@@ -656,18 +655,18 @@ line-height: 3rem;
 }
 
 
- .news-wrap{
-   width: 70%;
- }
+.news-wrap{
+  width: 70%;
+}
 
- .time{
-   font-size: 1.2rem;
- }
+.time{
+  font-size: 1.2rem;
+}
 
- .text{
-   font-size: 1.6rem;
-   margin-left: 50px;
- }
+.text{
+  font-size: 1.6rem;
+  margin-left: 50px;
+}
 
 /* 帯 */
 
@@ -721,13 +720,13 @@ border-color: transparent transparent #ffffff transparent;
 
 }
 
- .event-title{
-   margin-top: 150px;
-   margin-right: 50px;
+.event-title{
+  margin-top: 150px;
+  margin-right: 50px;
   font-size: 15rem;
   color: #707070;
   text-align: right;
- }
+}
 
 .event-wrap{
   margin: 0 100px;
@@ -737,9 +736,9 @@ border-color: transparent transparent #ffffff transparent;
 }
 
 
- .event-text{
-   width: 398px;
- }
+.event-text{
+  width: 398px;
+}
 /* お知らせ */
 
  /* .event-box:before{
@@ -775,41 +774,40 @@ border-color: transparent #0215ba transparent transparent;
   padding: 0 15px;
 }
 
- .event-text h4{
-   font-size: 1.6rem;
-   font-weight: bold;
-   margin-top: 10px;
- }
+.event-text h4{
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 10px; }
 
- .event-text{
+/* .event-text{
    font-size: 1.4rem;
    color: #525050;
    padding: 20px;
    margin-bottom: 30px;
- }
+} */
 
- .event-text p{
+.event-text p{
     margin: 20px 0;
- }
+}
 
- .event-text ul{
-   display: flex;
-   justify-content: flex-start;
+.event-text ul{
+  display: flex;
+  justify-content: flex-start;
   
- }
+}
 
- .event-text ul li{
-   font-size: 1rem;
- }
+.event-text ul li{
+  font-size: 1rem;
+}
 
- .tag{
-   padding-right: 10px;
- }
+.tag{
+  padding-right: 10px;
+}
 
- .tag2{
-    border-left: 1px solid #707070;
-    padding-left: 10px;
- }
+.tag2{
+  border-left: 1px solid #707070;
+  padding-left: 10px;
+}
 
 .page-btn{
   display: flex;
@@ -852,20 +850,21 @@ color: #ffffff;
   text-align: center;
 }
 
- #contact-header{
+#contact-header{
   background-image: url(../image/contct.png);
   height: 440px;
-   width: 100%;
-   background-size: cover;
- }
- 
- 
+  width: 100%;
+  background-size: cover;
+}
+
+
 form{
   margin: 50px;
 }
 form span{
+  height: 15px;
   color: white;
-  background-color:#1E57D6;
+  background-color:#f88282;
   border-radius: 5px;
 
 }
@@ -886,24 +885,67 @@ textarea{
 
 
  /* レスポンシブ  */
- @media screen and (max-width: 1199px) {
-  /* #title{
-    font-size: 10rem;
+@media screen and (max-width: 1199px) {
+
+  .nav ul li a{
+    padding: 0 30px;
+  }
+
+  #title{
+    margin-top: 120px;
+    font-size: 12rem;
+  }
+  .value {
+    margin-left: 30px;
   }
 
   #sub-title{
-    margin: 100px 30px 0 100px;
-  } */
+    margin: 50px 30px 0 100px;
+  }
+
+  .title-wrap img {
+    width: 49%;
+  }
+  .about h2{
+    right: 0;
+    }
+  .img2{
+    top: 220px;
+    left: 0;
+  }
+.img3{
+  top: 500px;
+  left: 300px;
+}
+  
+.img4{
+  top: 880px;
+}
+.img5{
+  top: 900px;
+  left: 50px;
+}
+.access h2{
+  margin-top: 1600px;
   
 }
+.news{
+  margin-left: 50px;
+}
+.event-title{
+margin-right: 150px;
+}
+.event-wrap{
+margin: 0 ;
+}
+}
 
-
-/* 559 */
 @media screen and (max-width: 750px) {
 
   .nav{
   display: none;
   }
+ 
 
   #title{
     font-size: 8rem;
@@ -939,13 +981,13 @@ textarea{
     display: block;
   }
 
- .proposition-img{
-   width: 100%;
-   padding: 0 auto;
- }
+.proposition-img{
+  width: 100%;
+  padding: 0 auto;
+}
 
 
- .proposition-text{
+.proposition-text{
   margin-left: 0;
   padding:15px 0;
   border:none ;
@@ -984,7 +1026,7 @@ font-size: 250px;
 
 .img-wrap .img{
   position: static;
- 
+
 }
 
 #menter h2{

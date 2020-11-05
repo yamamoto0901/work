@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body>
+<body id="contact">
   <header id="contact-header">
     <div class="header-nav-wrap">
       <h1>
@@ -33,34 +33,19 @@
     <h2 class="cat-index">CONTACT</h2>
     </header>
     <main>
-
-      <div class="Form">
-        <div class="Form-Item">
-          <p class="Form-Item-Label">
-            <span class="Form-Item-Label-Required">必須</span>会社名
-          </p>
-          <input type="text" class="Form-Item-Input" placeholder="例）株式会社令和">
-        </div>
-        <div class="Form-Item">
-          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>氏名</p>
-          <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
-        </div>
-        <div class="Form-Item">
-          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
-          <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
-        </div>
-        <div class="Form-Item">
-          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
-          <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
-        </div>
-        <div class="Form-Item">
-          <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
-          <textarea class="Form-Item-Textarea"></textarea>
-        </div>
-        <input type="submit" class="Form-Btn" value="送信する">
-      </div>
+<form action="#">
+<p><label>お名前 <span>（必須）</span><br>
+<input type="text" name="name" requied></label></p>
+<p><label>電話番号<span>（必須）</span><br>
+<input type="tel" name="tel" required></label></p>
+<p><label>メールアドレス<span>（必須）</span><br>
+<input type="email" name="mail" required]></label></p>
+<p><label>お問い合わせ内容<br>
+<textarea name="comment"></textarea></label></p>
+<p><input type="submit" value="送信"></p>
+</form>
     </main>
-    
+  
 
   
 
@@ -72,9 +57,15 @@
         <li><a href="">FLOORMAP </a></li>
         <li><a href="">MENTER</a></li>
         <li><a href="topics.html">TOPICS</a></li>
-        <li><a href="">CONTACT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
       </ul>
     </nav>
+    <div class="icon">
+        <a href=""><img class="line-icon" src="image/LINE_APP.png" alt=""></a>
+        <a href=""><img class="insta-icon" src="image/insta2.png" alt=""></a>
+        <a href=""><img class="twitter-icon" src="image/twitter.png" alt=""></a>
+        <a href=""><img class="facebook-icon" src="image/facebook.png" alt=""></a>
+      </div>
     <h1>
       <a href="index.html"><img src="image/logo.png" alt="ロゴ" /></a>
     </h1>

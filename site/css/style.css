@@ -50,6 +50,7 @@ a {
   height: calc(100vh);
   width: auto;
   object-fit: cover;
+  background-color:rgba(0, 0, 0, 0.7);
 }
 
 
@@ -61,8 +62,9 @@ a {
 }
 header h1 {
   top: 20px;
-  left: 20px;
+  left: 20px；
 }
+
 
 #global-nav {
   margin: 0 auto;
@@ -102,6 +104,7 @@ li + li {
   align-items: center;
   margin-top: 300px;
   /* background-color: rgba(255, 255, 255, 80%); */
+  font-family: "Cormorant Garamond", serif;
   height: 200px;
 }
 .header-text img {
@@ -214,13 +217,19 @@ white-space: nowrap;
   display: flex;
 }
 
+.proposition-img img{
+  width: 100%;
+}
 
 .proposition-text{
+  margin-right: 20px;
   margin-left: 50px;
-  padding:60px 200px 0 100px;
+  width: 50%;
   font-size: 1.8rem;
-  width: 600px;
   border-bottom: 1px solid rgb(197, 189, 189);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #menter h2{
   margin: 150px 0 0 225px;
@@ -302,8 +311,8 @@ text-decoration: none;
 }
 
 .item img{
-  width: 70%;
-  padding: 30px;
+  width: 65%;
+  padding: 10px;
   border-bottom: 1px solid rgb(173, 173, 173);
 }
 
@@ -406,8 +415,10 @@ iframe{
   width: 35%;
   height: 800px;
   color: #fff;
-  padding: 150px;
-
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
   line-height: 2.2;
 }
 
@@ -436,7 +447,26 @@ footer{
   background-color: rgba(255, 255, 255, 0.8);
 }
 
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
 
+
+
+.insta-icon{
+  width: 50px;
+}
+
+.twitter-icon,.facebook-icon{
+  width: 40px;
+  margin: 0 3px;
+}
+.line-icon{
+  width: 40px;
+}
 
 small{
   
@@ -639,7 +669,57 @@ line-height: 3rem;
    margin-left: 50px;
  }
 
+/* 帯 */
 
+.event-box{
+  position: relative;
+}
+
+.info{
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  width: 112px;
+  height: 30px;
+  color: #fff;
+  background-color: #7A9EEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.info::before{
+  content: '';
+  display: block;
+position: absolute;
+top: 30px;
+left: 0;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 10px 10px 0;
+border-color: transparent #0215ba transparent transparent;
+}
+
+.event-img{
+  position: relative;
+}
+
+.event-img::after{
+  content: '';
+  display: block;
+position: absolute;
+right: 0;
+bottom: 0;
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 0 30px 30px;
+border-color: transparent transparent #ffffff transparent;
+
+}
 
  .event-title{
    margin-top: 150px;
@@ -752,7 +832,7 @@ border-color: transparent #0215ba transparent transparent;
 }
 
 .btn-wrap:hover{
-  background-color: red;
+  background-color:rgba(30, 88, 214, 0.726) ;
 }
 
 .btn-wrap a{
@@ -768,18 +848,35 @@ color: #ffffff;
 
 
  /* コンタクト */
+#contact{
+  text-align: center;
+}
+
  #contact-header{
   background-image: url(../image/contct.png);
   height: 440px;
    width: 100%;
    background-size: cover;
  }
- .form{
-    width: 100%;
-    text-align: center;
- }
+ 
+ 
+form{
+  margin: 50px;
+}
+form span{
+  color: white;
+  background-color:#1E57D6;
+  border-radius: 5px;
 
+}
 
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea{
+  border: 1px solid #666666;
+  font-size: 2rem;
+}
 
 
 
@@ -790,19 +887,16 @@ color: #ffffff;
 
  /* レスポンシブ  */
  @media screen and (max-width: 1199px) {
-  #title{
+  /* #title{
     font-size: 10rem;
   }
 
   #sub-title{
     margin: 100px 30px 0 100px;
-  }
+  } */
   
 }
 
- @media screen and (max-width: 959px) {
-	
-}
 
 /* 559 */
 @media screen and (max-width: 750px) {
@@ -831,8 +925,9 @@ color: #ffffff;
   .value {
     display: block;
     margin-top:50px;
-
   }
+
+
 
   .vertical {
 	-webkit-writing-mode:horizontal-tb;
@@ -924,3 +1019,4 @@ font-size: 250px;
   padding: 30px 0;
 }
 }
+

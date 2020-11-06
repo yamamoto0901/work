@@ -907,6 +907,7 @@ a{
   display: block;
   height: 50px;
   width: 50px;
+  background: rgba(85, 85, 85, 0.747);
   position: fixed;
   top: 10px;
   right: 10px;
@@ -952,14 +953,21 @@ a{
   visibility: visible;
 }
 
+.nav-wrap{
+  flex-direction: column;
+}
 
 
 
 
-  header h1 {
-    left: 10px;
-  }
 
+header h1 {
+  top: 0px;
+  left: 0;
+}
+.header-text {
+  margin-top: 200px;
+}
   .header-text h2 {
     font-size: 2.5rem;
   }
@@ -1088,5 +1096,9 @@ a{
 
   footer {
     padding-top: 10px;
+  }
+
+  .nav2{
+    display: none;
   }
 }

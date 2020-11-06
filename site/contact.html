@@ -1,25 +1,99 @@
 <!DOCTYPE html>
 <html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>お問い合わせ</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/filipelinhares/ress/master/dist/ress.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>お問い合わせ</title>
-  <link rel="stylesheet" href="https://cdn.rawgit.com/filipelinhares/ress/master/dist/ress.min.css" />
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" />
-</head>
+  <body id="contact">
+    <header id="contact-header">
+      <div class="header-nav-wrap">
+        <h1>
+          <a href="index.html"><img src="image/logo15.png" alt="ロゴ"/></a>
+        </h1>
+        <nav id="global-nav" class="nav">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="sistem.html">SISTEM</a></li>
+            <li><a href="">FLOORMAP </a></li>
+            <li><a href="">MENTER</a></li>
+            <li><a href="topics.html">TOPICS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <h2 class="cat-index">CONTACT</h2>
+    </header>
+    <main>
+      <h2 class="contact-title">お問い合わせフォーム</h2>
 
-<body id="contact">
-  <header id="contact-header">
-    <div class="header-nav-wrap">
-      <h1>
-        <a href="index.html"><img src="image/logo15.png" alt="ロゴ" /></a>
-      </h1>
-      <nav id="global-nav" class="nav">
+      <p class="read">
+        お見積り、ご質問などのご相談はお気軽にフォームよりお問い合わせください。<br />
+        なお、お問い合わせいただきました内容によっては、ご返答までにお時間をいただく場合がございます。<br />
+        あらかじめご了承くださいます様よろしくお願い申し上げます。
+      </p>
+
+      <form action="form">
+        <p>
+          <label
+            >・お名前 <span>（必須）</span><br />
+            <input type="text" name="name" placeholder="例）山田太郎" requied
+          /></label>
+        </p>
+        <p>
+          <label
+            >・電話番号<span>（必須）</span><br />
+            <input
+              type="tel"
+              name="tel"
+              placeholder="例）090-1234-5678"
+              required
+          /></label>
+        </p>
+        <p>
+          <label
+            >・メールアドレス<span>（必須）</span><br />
+            <input
+              type="email"
+              name="mail"
+              placeholder="例）sample@xxx.ne.jp"
+              required
+          /></label>
+        </p>
+        <p>
+          <label
+            >・お問い合わせ内容<br />
+            <textarea
+              name="comment"
+              placeholder="こちらにお問い合わせ内容をご入力ください。"
+            ></textarea
+          ></label>
+        </p>
+        <p><input type="submit" value="送信" /></p>
+      </form>
+    </main>
+
+    <footer>
+      <nav id="footer-nav" class="nav nav2">
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="sistem.html">SISTEM</a></li>
@@ -29,48 +103,20 @@
           <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </nav>
-    </div>
-    <h2 class="cat-index">CONTACT</h2>
-    </header>
-    <main>
-<form action="#">
-<p><label>お名前 <span>（必須）</span><br>
-<input type="text" name="name" requied></label></p>
-<p><label>電話番号<span>（必須）</span><br>
-<input type="tel" name="tel" required></label></p>
-<p><label>メールアドレス<span>（必須）</span><br>
-<input type="email" name="mail" required]></label></p>
-<p><label>お問い合わせ内容<br>
-<textarea name="comment"></textarea></label></p>
-<p><input type="submit" value="送信"></p>
-</form>
-    </main>
-  
-
-  
-
-  <footer>
-    <nav id="footer-nav" class="nav nav2">
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="sistem.html">SISTEM</a></li>
-        <li><a href="">FLOORMAP </a></li>
-        <li><a href="">MENTER</a></li>
-        <li><a href="topics.html">TOPICS</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
-    </nav>
-    <div class="icon">
-        <a href=""><img class="line-icon" src="image/LINE_APP.png" alt=""></a>
-        <a href=""><img class="insta-icon" src="image/insta2.png" alt=""></a>
-        <a href=""><img class="twitter-icon" src="image/twitter.png" alt=""></a>
-        <a href=""><img class="facebook-icon" src="image/facebook.png" alt=""></a>
+      <div class="icon">
+        <a href=""><img class="line-icon" src="image/LINE_APP.png" alt=""/></a>
+        <a href=""><img class="insta-icon" src="image/insta2.png" alt=""/></a>
+        <a href=""
+          ><img class="twitter-icon" src="image/twitter.png" alt=""
+        /></a>
+        <a href=""
+          ><img class="facebook-icon" src="image/facebook.png" alt=""
+        /></a>
       </div>
-    <h1>
-      <a href="index.html"><img src="image/logo15.png" alt="ロゴ" /></a>
-    </h1>
-    <small>&copy;c.calc</small>
-  </footer>
-</body>
-
+      <h1>
+        <a href="index.html"><img src="image/logo15.png" alt="ロゴ"/></a>
+      </h1>
+      <small>&copy;c.calc</small>
+    </footer>
+  </body>
 </html>

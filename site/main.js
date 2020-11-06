@@ -1,8 +1,12 @@
 document.addEventListener('DOMContentLoaded',function(){
 document.getElementById("menuButton").addEventListener("click", function() {
   this.classList.toggle("active");
+  document.getElementById("global-nav").classList.toggle("active");
 })
 });
+
+
+
 
 $(function() {
   $(window).scroll(function() {

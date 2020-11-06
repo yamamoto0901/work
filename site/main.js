@@ -1,3 +1,9 @@
+document.addEventListener('DOMContentLoaded',function(){
+document.getElementById("menuButton").addEventListener("click", function() {
+  this.classList.toggle("active");
+})
+});
+
 $(function() {
   $(window).scroll(function() {
     $(".fadein,.fadein2,.fadein3").each(function() {
@@ -10,3 +16,4 @@ $(function() {
     });
   });
 });
+

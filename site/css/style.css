@@ -110,6 +110,8 @@ li + li {
   padding-top: 55px;
 }
 
+
+
 /* スクロールが入ります */
 
 #titile {
@@ -897,12 +899,45 @@ input[type="submit"]:hover {
     display: none;
   }
 
+a{
+  text-decoration: none;
+}
+
+
+.menuButton{
+  display: block;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.menuButton div{
+  height: 1px;
+  width: 60%;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.menuButton div:nth-of-type(1){
+  transform: translate(-50%,-15px);
+}
+.menuButton div:nth-of-type(3){
+  transform: translate(-50%,15px);
+}
+
+
+
   header h1 {
     left: 10px;
   }
 
   .header-text h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   #title {
@@ -926,7 +961,6 @@ input[type="submit"]:hover {
 
   .value {
     display: block;
-    /* text-align: center; */
     margin-top: 50px;
     margin-left: 0;
   }
@@ -1011,7 +1045,7 @@ input[type="submit"]:hover {
   }
 
   iframe {
-    height: auto;
+    height: 100%;
   }
 
   .map {

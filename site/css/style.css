@@ -907,6 +907,7 @@ a{
   position: fixed;
   top: 10px;
   right: 10px;
+  transition: .3s;
 }
 
 .menuButton div{
@@ -918,6 +919,10 @@ a{
   left: 50%;
   transform: translate(-50%,-50%);
   transition: .3s;
+}
+
+.menuButton.active{
+  transform: rotate(180deg);
 }
 
 .menuButton div:nth-of-type(1){

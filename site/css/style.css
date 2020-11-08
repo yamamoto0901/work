@@ -587,6 +587,31 @@ header h2 {
   text-align: center;
 }
 
+.contact-block{
+  text-align: center;
+}
+
+.contact-text{
+  margin-top: 50px;
+    font-size: 4rem;
+}
+
+.contact-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.btn1{
+  background-color: rgb(29, 52, 255);
+  border: #000;
+}
+
+.btn2{
+  background-color: rgb(109, 54, 54);
+}
+
 /* トピックスが入ります */
 
 #topics-header {

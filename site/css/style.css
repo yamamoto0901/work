@@ -432,14 +432,17 @@ footer h1 {
   margin: 10px;
 }
 
+.icon a{
+  margin: 0 4px;
+}
+
 .insta-icon {
-  width: 50px;
+  width: 40px;
 }
 
 .twitter-icon,
 .facebook-icon {
   width: 40px;
-  margin: 0 3px;
 }
 .line-icon {
   width: 40px;
@@ -772,6 +775,7 @@ header h2 {
 .event-text ul {
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 20px;
 }
 
 .event-text ul li {

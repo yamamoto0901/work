@@ -206,10 +206,9 @@ li + li {
   font-size: 1.8rem;
   border-bottom: 1px solid rgb(197, 189, 189);
   display: flex;
-  justify-content: center;
+  text-align: left;
   align-items: center;
   line-height: 2;
-  
 }
 #menter h2 {
   margin: 150px 0 0 225px;
@@ -457,9 +456,9 @@ small {
   color: white;
 }
 
-/* sistem  ここから*/
+/* system  ここから*/
 
-#sistem-header {
+#system-header {
   background-image: url(../image/sistem.png);
   height: 440px;
   width: 100%;
@@ -478,7 +477,7 @@ header h2 {
   text-align: center;
 }
 
-.sistem-box {
+.system-box {
   margin: 10px 100px;
   display: flex;
   justify-content: space-around;
@@ -496,7 +495,7 @@ header h2 {
   color: #524f4f;
 }
 
-.sistem-menu {
+.system-menu {
   margin-top: 100px;
   text-align: center;
 }
@@ -522,7 +521,6 @@ header h2 {
 .free-menu {
   width: 70%;
   padding-left: 100px;
-  /* 改行なし */
   white-space: nowrap;
 }
 
@@ -686,7 +684,7 @@ header h2 {
   margin-left: 50px;
 }
 
-/* 帯 */
+
 
 .event-box {
   position: relative;
@@ -758,9 +756,7 @@ header h2 {
   flex-wrap: wrap;
 }
 
-/* .event-text {
-  width: 100%;
-} */
+
 
 .event-box {
   width: 100%;
@@ -1226,15 +1222,15 @@ input[type="submit"]:hover {
     font-size: 2rem;
   }
 
-  #sistem-header img {
+  #system-header img {
     background-size: cover;
   }
 
-  .sistem-menu {
+  .system-menu {
     margin-top: 50px;
   }
 
-  .sistem-box {
+  .system-box {
     margin: 10px 30px;
   }
 
